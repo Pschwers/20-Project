@@ -1,0 +1,5 @@
+
+Bo Romans
+
+
+     This week we worked on setting up our workspace for future work. Parker has previously learned some HTML, and I’ve been watching videos and practicing it a little bit. The main goal of this week is to learn how to be able to actually put the website online. When we have that figured out then we can start testing it and figuring out what to fix. The second goal for me personally is to learn how to input code into making the website work, as I have only learned how to make a basic website with text and no where to input something. For now I will not write the math code, but instead focus on the development of the actual website. This is because I’m not sure what type of code will be needed to input it into the website. For now, I’ve watched many videos and made a c9 account to be able to work with parker on the same project.
