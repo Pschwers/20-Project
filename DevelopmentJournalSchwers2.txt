@@ -1,0 +1,3 @@
+Parker Schwers
+
+This week we decided on what coding language we are going to use to process the data we get. We are using ruby and ruby on rails. We will use these to make the calculations needed for our webpage. We also decided and created a Logo for our website. I made it in a Pixel image creator. I also did a little work on the design of the webpage in HTML. I put in all the basic elements that we are going to need. I looked up a little on how ruby on rails is implemented with the html and how to use it. Bo is going to handle the ruby while I do the HTML but I looked up a little so I can help him. This next week I'll work more on the basic layout of the webpage and start implementing the ruby.
