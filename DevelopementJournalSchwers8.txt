@@ -1,0 +1,3 @@
+
+
+This week Bo and I finished up finding all the class we are going to put into our Webpage. We started writing them all down in the code. We are using Javascript for a switch so I looked up some tutorials online for Javascript and how to implement it into an HTML document. 
