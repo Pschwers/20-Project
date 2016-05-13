@@ -1,5 +1,119 @@
-
 Bo Romans
 
+2-5-16
+     This week we worked on setting up our workspace for future work. Parker has previously learned some HTML, and Iâ€™ve been watching videos and practicing it a
+     little bit. The main goal of this week is to learn how to be able to actually put the website online. When we have that figured out then we can start testing
+     it and figuring out what to fix. The second goal for me personally is to learn how to input code into making the website work, as I have only learned how to
+     make a basic website with text and no where to input something. For now I will not write the math code, but instead focus on the development of the actual
+     website. This is because Iâ€™m not sure what type of code will be needed to input it into the website. For now, Iâ€™ve watched many videos and made a c9 account
+     to be able to work with parker on the same project.
+2-12-16
+     So far, I've watched more videos about learning ruby on rails. I performed a ruby tutorial for a few hours, and found that it may be a bit more than needed
+     when it comes to making a simple website. This led me to change to starting to learn javasript. This is because many of my friends know how to code in javasript,
+     so when i need help I will be able to go to them for guidance and assistance. In addition, I will not need to memorize nearly as many words and commands as I
+     would normally with rails. When I get the hang of javascript, I'll create a document that shows me how to convert from java, and also some new coding stuff
+     I'll need to learn when making a website. Then I'll be able to work with parker on actually coding the site. So far, all we have is a rough HTML layout of what
+     it will look like.
+2-19-16
+     This week, I worked on developing my javascript skills. Because java and javascript are vastly different, it is taking a bit longer than i would have expected.
+     I am watching a youtube series on it, and am getting ready to use some online prepping websites that show the user how to learn to code in javascript. Because
+     I have made the switch in languages, hopefully now I can utilize some friends who know javascript as a resource to helllp when I get stuck. We have, set up, a
+     basic html website that looks nice. The website is being planned still, but now we have an experimental workspace that we can try to code with javascript. We
+     are also prepping to start finding other websites that have information for classes that we can put into our site as a study prep guide. Ahead of us we still
+     have a lot of coding to do, but we already know what we want to do to do it. It's just implementing it right that is what will be the main difficulty.
+2-26-16
+     Working with javascript in HTML has proven to be more difficult than I first expected. I tried to set up a global variable that I can use to make different
+     webpages appear based on if the user is signed in or not, however I cannot figure out why it is not implemented as a global variable correctly. This is about
+     to be the first time I effectively utilize people outside of the internet for help on this project. Overall, however, the website is still looking professional
+     and ready to be layed out. We are writing the instructions for the website on the front page right now, and that will provide the basis for what we implement
+     in the future. The main problem I am researching right now (so I will know how to deal with it later) is enabling the users to make an account that can be saved
+     into the website. There are some things that show how to do it easily, however these resources do not tell as to why it works. There is still a long road ahead
+     of us when it comes to this project, but I'm feeling pretty good about it.
+3-4-16
+     The Java script within the HTML code may not actually work. I got a friend who's experienced in javascript to look at the code, and they informed me that a
+     login system is extremely difficult and even people who have coded for years have difficulty with it. This is why I am going to see if there is an alternative
+     to a login system. In addition to this, the friend also pointed out that I may need to learn jQuery to fit my needs with printing out stuff in HTML using
+     javascript code. The website's grunt work of finding links to send people to is currently being done. We have a list of classes in a google doc, and are about
+     a quarter of the way through finding a good overview of the class. For the site we are going to just send them to a webpage instead of displaying the
+     information, as it would take way too long to show the info for each class. Normally, it would take hours to put together a study guide for one class overview,
+     but to do it for hundreds is simply not possible for two students. This upcoming week I hope to put together an alternative to logging in, such as just putting
+     in the classes.
+3-11-16
+     This week, we made a few key descisions. The first was that it was acceptable to cut out some classes. The list of classes across america spans over many topics
+     and includes over a hundred said classes. When we were researching, we found that it became increasingly difficult to actually find an overview of some of the
+     classes. This is most likely because the classes in question are either only offered in different regions, are not needed to be studied for, or do not have a
+     set national curriculum. This all led to the descision that we will be using only classes that have good study guides already made. The amount of classes cut
+     from the list is still really small, as we are very selective in which ones we do not need. This descision brought up the idea of providing a list of classes
+     we have guides for, too. We have not officially decided whether or not to implement this as of yet. The next large difference in our website from our original
+     design is the lack of a login system. I decided that we will simply not have one, but instead just have a website that gives the study guides when a student
+     inputs their data. Next week I plan to get a significant portion of the list done, and fix some of the java script code that was messing up the website's script
+     functioning.
 
-     This week we worked on setting up our workspace for future work. Parker has previously learned some HTML, and I’ve been watching videos and practicing it a little bit. The main goal of this week is to learn how to be able to actually put the website online. When we have that figured out then we can start testing it and figuring out what to fix. The second goal for me personally is to learn how to input code into making the website work, as I have only learned how to make a basic website with text and no where to input something. For now I will not write the math code, but instead focus on the development of the actual website. This is because I’m not sure what type of code will be needed to input it into the website. For now, I’ve watched many videos and made a c9 account to be able to work with parker on the same project.
+3-18-16
+     So far, the website list is almost complete. Spring break is coming, so I hope to go through the list and finish it before the break hits. We got rid of a lot
+     of classes, because there is simply no overview of the class. We could not ask teachers about it either, as the classes are not even offered anywhere in the
+     Boise area. After the break, we will need to start writing the switch, and set up the word identifyer. We also need to make the website a bit more colorful,
+     and make a background for the overall website theme. The deadline is approaching, so we need to make sure we get this done within a couple weeks after the
+     break. The website is expected to break, so instead of writing out all of the code we will stop at each error and fix it until we get through everything. There
+     is also a lot of error we need to be ready to anticipate, and so there is going to be a lot of spellchecking. We will also make sure to exclude command words,
+     so that there is absolutely no chance of a website screw up. We can use the internet to look up common errors, and I might dabble in amateur hacking so that I
+     can help code the website in a way that makes it more difficult to hack. This is the point where we will be doing a lot of the difficult thinking work of the
+     website, but I think it will go relatively smoothly.
+
+4-1-16
+     This week was a lot of work putting the website together. We started by writing code to set up an input box for the users to use. This is what I needed to be
+     able to successfully implement my enormous switch into the code to actually set up the basis for the entire website. We had struggles with implementing variables
+     and actually getting the switch to take in the data from the input box, but in the end it kind of works. the code is extremely crude however, and I think that the
+     site is in a lot of danger from potential hackers. We now need to figure out what the exact algorithms are going to be for the people to put in their scores in
+     the class, and how we can relate that input back to the first input statement box. I'm still not sure how we will do it specifically, but so far I have plans
+     written out. This was not the most important feature of the site, though. My main worry was having to get the site working. Now we just have to design it a little
+     better possibly and write algorithms.
+
+4-8-16
+     We are getting close to the final product. I am having a friend help us out with the switch, because hours of research and experimentation has yielded nothing so
+     far for me. The problem is with a couple of the variables being off or something along those lines. We are also sketching designs that we could implement to make
+     the website look nicer, too. I am going to visit a lot of the educational websites we researched and look at how they are layed out. This could end up being the
+     basis for what our website will look like in its end stage. The new big problem with the website is going to be figuring out how to properly set up the algorithms
+     for which class to display first. This is going to be the biggest challenge yet for me, because there are so many variables to consider. Overall, though, with
+     Parker's help, we should be able to figure it out and implement it quickly.
+     
+4-15-16
+     Website making has proven to be a bit more difficult than I initially thought. With java, it would tell me what the error was and highlight the line. Now, I'm not
+     sure what the problems are, and am getting really confused by a lot of the errors. I've spent hours researching some of the errors, and have found that most of the
+     sites are answering questions about an error completely different, that I cannot relate to. This happens after I have been looking at the code for a while though,
+     because I take a while to understand what the code is trying to do. There are a couple parts that really stump me. The first one is why the switch does not work. I
+     have gone through it multiple times and fixed it, which can take up to 20 minutes a pop. Every time I look at a for-loop on a website it is slightly different. The
+     second error is that in we have our function in the main tab, and it is apparently not being accessed. We will be looking into it in the future, but for now we are
+     creating more errors than we are fixing.
+     
+4-22-16     
+     The errors persist, and it is becoming extremely aggravating. Parker does not know what we are doing with the calc function either, so I'm looking into how to access
+     it while keeping our code intact. A different problem/conundrum has been brought up, in that we are still not sure how we will print it out. Our first thoughts were
+     to create an alert that pops up on the page, however now we are shifting our goals to being better and maybe possibly having a new page display something. The
+     confusing part about HTML is questioning whether I can change text mid-operation. So far, people have said it's possible, but it seems as though they load a new page
+     that looks almost identical to the first one, with small changes they wanted to make. Hopefully we will find a way that does not involve learning years worth of 
+     programming. The website is still making progress, and we are making another algorithm.
+     
+4-29-16
+     I have successfully put together an algorithm for calculating everything. I had one before but it did not account for everything I thought it would. I am still unsure
+     how we are going to account for eight classes at a time, and output the text right below the input box. We are thinking changes will need to be made to where we have
+     a new page with just the lines we are going to output, instead of figuring out how to load a new page without some of the stuff. We thought about redirecting the user
+     to a new page that is practically a copy of the first page, but without the input boxes and with new text. However, there was difficulty in finding a simple-ish
+     explanation as to how we would transfer the variables from page to page. Hopefully soon we will find a new way to give the user their data easily, with easy access
+     back to the calculator page, else we will need to just print everything out as an alert.
+     
+5-6-16
+     The algorithm had to be changed, due to a small miscommunication between Parker and I. I thought that we were going to list all eight of the classes at once when the
+     user inputted them, however we debated for a little bit and decided on creating one input area, where the user inputs not just the class, but the grade they have, the
+     grade they want, and how much the EOC is worth. I initially thought that we were going to just have the class and grade they have, and Parker and I would prioritize
+     different classes via algorithms that took into account how important the class is. However, now we are going to let the user determine how important it is for them
+     to achieve the grade they want in the class. This will make it easier for the user, and it will mean less variables for us. I wrote a quicker algorithm that takes the
+     new variables into account and checked to see if it works. I believe it is correct, and am excited for what the website will look like when finished.
+     
+5-13-16
+     This week we added a few features. One of them is an intro to how to study, with quick tips and tricks for the user to look at on the homepage. This will make it better
+     for the user to understand how to study better. I wrote the algorithm into the coding, and found many errors in the process. I fixed a lot of them, but found one that
+     I'm still not sure how it works. We have a function using calc(), but the implementation claims it is not implemented, so I need to do more research on how to
+     implement a new function. This is almost the only thing breaking the site as of now, but it still looks nice and will function as a site for learning how to study more
+     effectively. We are also considering adding a flash card function, but I will need to look it up for a few hours before determining whether or not we should actually
+     try to do it. This is because the way we would have to do it is weird and new. For now though, the website is almost finished, just a couple more errors to fix.
