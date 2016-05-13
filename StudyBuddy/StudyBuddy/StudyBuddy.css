@@ -4,7 +4,7 @@
       Today's Date:10/15/15
 */
 body {
-    background-color: #01000;
+    background-color: #79a6d2;
     font-family: verdana, Arial, Helvetica, sans-serif;
 }
 #email{
@@ -54,23 +54,32 @@ a:active {
     
 h1 { text-align: center;
 vertical-align: middle;
-    color: #0099ff;
+    color: #001a33;
     font-size: 4em;
     
 }
 h2 { 
     text-align:center;
-    color: #234054;}
+    color: #001a33;}
 h3 { font-weight: bold;
-     color: navy;}
+     color: white;
+    font-size: 2em;
+}
 p  {
     text-indent: 5em;
-     line-height: 1.5em;}
+     line-height: 2em;
+    font-size: 1.35em;
+    
+}
+     
 h4 { text-transform: uppercase;
      color: maroon;}
+     
 h5 { color:#FF99FF;}
+
 h6 { color: #00FF00;}
-#para1{ color: #8FB2B2;}
+
+#para1{ color: #990000;}
 .center {
     text-align: center;
     color: navy;
@@ -80,7 +89,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ff3333;
+    background-color: #990000;
 }
 
 li {
@@ -106,7 +115,7 @@ li a {
    border-style:ridge;
    border-color: black;
    text-align: center;
-  
+  font-size: 20px;
 }
 #center{
     color: green;
@@ -141,4 +150,7 @@ tr{
     footer{
         padding: 2em;
         text-align:center;
+    }
+    #footer{
+        font-size: .75em;
     }
