@@ -154,3 +154,11 @@ tr{
     #footer{
         font-size: .75em;
     }
+
+#forms{
+  display: inline;
+}
+
+#suggest{
+  display: inline;
+}

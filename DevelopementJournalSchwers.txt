@@ -1,0 +1,60 @@
+Parker Schwers
+
+#1
+2-5-16
+   This week me and Bo decided on what IDE we are going to use for our project. We decided on Cloud 9, Cloud 9 uses the cloud for storage so me and Bo can both work on it at the same time. We set up our accounts and created a workspace that we both share. We also laid out a few more ideas for our Finals calculator, like suggesting sites that can help you study if you need to get a good grade on the final to bring up or keep your grade. Also, creating seperate tabs for each of the different classes the user is taking. I also fixed my repoisitory, well actually Mr. Schreiber did but I learned how to fix it.  I also downloaded Sublime text for writing code and developement journals. My goal is to start programming the HTML and doing research on how to create a database for users. 
+#2
+2-12-16
+     This week we decided on what coding language we are going to use to process the data we get. We are using ruby and ruby on rails. We will use these to make the calculations needed for our webpage. We also decided and created a Logo for our website. I made it in a Pixel image creator. I also did a little work on the design of the webpage in HTML. I put in all the basic elements that we are going to need. I looked up a little on how ruby on rails is implemented with the html and how to use it. Bo is going to handle the ruby while I do the HTML but I looked up a little so I can help him. This next week I'll work more on the basic layout of the webpage and start implementing the ruby.
+#3
+2-19-16
+This week I worked on the menu for our website. We decided to include an EOC calculator page which will be the main part of our website where all the grades will be calculated. Then we'll have a profile page where you can edit your profile and view your classes. Then a sign up page where if you don't have a profile you can make one. And if you do have one you can log in. We also decided against ruby and ruby on rails because learning all the new word and codes for it would waste a lot of time. So we are using Java Script. Java Script has many simularities to Java so it'll be easier to learn and implement. My goal for next week is to get more of the website finished and also decide the color scheme for our site.
+#4
+2-26-16
+     This week I worked on the menu for our website. We decided to include an EOC calculator page which will be the main part of our website where all the grades will be calculated. Then we'll have a profile page where you can edit your profile and view your classes. Then a sign up page where if you don't have a profile you can make one. And if you do have one you can log in. We also decided against ruby and ruby on rails because learning all the new word and codes for it would waste a lot of time. So we are using Java Script. Java Script has many simularities to Java so it'll be easier to learn and implement. My goal for next week is to get more of the website finished and also decide the color scheme for our site.
+#5
+3-4-16
+     This week I worked more on the website. I added some paragraphs to the Main page about what our website is and how to navigate it. I added some description to the sign up page also. We decided on how to upload our webpage to GitHub. We copy and pasted all the programming to a .txt file and uploaded that. I used sublme text to do this. I also decided on a color scheme for our website which I'm making very eye friendly and colorful. This way our site will be more friendly and it will allow users to focus on it easier. My goal for next week is to continue typing up pararaphs and information about the site. I also am going to start work on some of the buttons and maybe the user interface.
+
+
+#6
+3-11-16
+     This week me and Bo started finding websites to link to study from. We have a lot of classes our users are going to be able to choose from. Most falls under the subjects of English (Core, electives, Remediation, Honors/AP), Math (Core, Electives, AP), Science(Core, Comprehensive, Electives, AP), History and Social Sciences(Core, Comprehensive, AP), World Languages(comprehensive), ELectives, Computer Sciences. We think that this will be a broad enough range of classes to cover most everyones needs. We will recommend these websites to our clients depending on there classes. Next week I'm plaaning on completing all the websites then implementing them into the website itself. Also figuring out how to create the class selection and the calaculations to figure out the grades our users need to get on their finals. 
+
+
+#7
+3-18-16
+    This week Bo and I finished up finding all the class we are going to put into our Webpage. We started writing them all down in the code. We are using Javascript for a switch so I looked up some tutorials online for Javascript and how to implement it into an HTML document. 
+
+#8
+4-1-16
+    This week Bo and I Finally finished putting all the classes in and we wroked more on the switch. It has been very difficult. I've googled many things trying to figure out what exactly the problem is but I haven't solved it quite yet. My goal for next week is to figure it out. Also I want to add more artistic touches to the website using Cascading Style Sheets. Maybe add some more creative borders or a developers web page with pictures of me and Bo. I could also make a cooler background using software. We'll see. 
+
+#9
+4-8-16
+  This week Herr Schreiber helped Bo and I move all of our stuff from our computers to cloud 9 where we do all our coding. This will make uploading everything through the terminal much easier. I really appreciate the help he provided. He is definetely my favorite teacher. I'm really excited for the child that he is bringing into the world. He will be a great father and Edmund is an awesome name, not quite as awesome as Parker but close. Anywho this week I also worked more on the website adding trying to figure out the switch and did a lot of research on how to do it. Also I added some cosmetic changes.
+   
+     
+#10
+4-15-16
+    This week on Study Buddy I made a few appearance changes. I made all the fonts a little bigger and changed the background color to a nice baby blue. Also Me and Bo did more research on the switch and he's getting very close to solving it. Once He's done with that then we can Finally implement and perfect our EOC calculator. Next week I am going to make a new page that contains study habits and tips. Also I am going to add something else to the homepage, I'm not exactly sure what but I'll figure it out. Maybe a Picture or something.
+     
+#11
+4-22-16  
+This week me and Bo worked on the EOC calculator trying to get it to work but it is proving difficult. We have tried many different ways. Combining javascript and HTML is very difficult and confusing sometimes because i don't completely get it but Bo is working very hard and i think he will get it soon. Next week I might try some different things as far as appearence for the website.
+   
+#12
+4-29-16
+    This week we got a lot more time in class to work on our 20% project.I did research on colors and found better colors for the site. I also added another tip to the Study tips and tricks page. I'm still trying to figure out what to add to the homepage. It just looks a little boring with oonly a short paragraph on it. Next week I'm going to figure out how to get this it's own domain and maybe start the Powerpoint for the presentation. 
+     
+#13
+5-6-16
+     This week I mostly worked on adjusting more appearance related things. I made the spaces and font sizes slightly bigger on all the pages using cascading style sheets. I also made h2 headings white which I think looks really good with the blue background. I also discussed our plans with Bo, we are going to experiment with alerts and dropdown menus for the eoc calculator this will make input easier to handle and make the website look much nicer. Next week I will try to get our own domain.
+     
+#14
+5-13-16
+    This week me and Mr. Schreiber started setting up the website. We decided to use GitHub pages because it's easy and free. He did about 95% of the setup. He created another repository inside the repoisitory which is a little messy. When we first tried it didn't work. Schreiber worked his magic but it still didn't work and the period ended so we didnt figure it out. So my goal for next week is to fix that and get it up and running. Also get the powerpoint and presentation squared away.
+    
+   #15
+ 5-20-16
+   This week me and Schreiber got the website running. We encountered many problems... First we had to create 2 repoisitorys which is kind if gross. I also had to changed my file name from main to Index because thats the name GitHub pages looks for to load up. Schreiber had to do a bunch of other stuff that I really couldn't keep up with all that well, but we got it working which is very good. Also I fixed all my Developement journals and put them all on one single document instead of each having they're own. It's much nicer and takes up way less space. It took me awhile to fix it because I didn't keep the best record of the order they went in but I think I did a good job. Next week we have to present so me and Bo started working on our Powerpoint. We're using google slides for it. 

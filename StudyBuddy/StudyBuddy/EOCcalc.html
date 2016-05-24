@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="StudyBuddy.css" type="text/css" />
+    <link rel="stylesheet" href="StudyBuddy.css" type="text/css" rel="stylesheet" type="text/css" media = "print" />
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+</head>
+
+<header>
+    <p><img src= "images/owl.png" alt="image of Studdy Buddy logo"> </p>
+    <h1>Study Buddy</h1>
+    <h3> EOC Calculator</h3>
+</header>
+
+<ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="StudyMethods.html">Study Methods</a></li>
+</ul>
+
+<body>
+    <center>
+    <div id="forms">
+
+        <p> Please input your class here:</p>
+        <p style="display: inline-block;">Class:</p><input type="text" class="userInput" id="userClass" style="display: inline-block;"></input>
+        <br>
+        <p style="display: inline-block;">Please input your current grade percent here:</p><input type="text" class="userInput" id="userCurrentPercent" style="display: inline-block;"></input>
+        <br>
+        <p style="display: inline-block;">Please input the percent your EOC is worth:</p><input type="text" class="userInput" id="userEOC" style="display: inline-block;"></input>
+        <br>
+        <p style="display: inline-block;">Please input the grade you want here:</p><input type="text" class="userInput" id="userWantedGrade" style="display: inline-block;"></input>
+        <br>
+        <button onclick="calc()">Submit</button>
+
+    </div>
+
+
+    <div id="suggest">
+        <p id="suggestClass">You Should Try <a id="suggestClassa" target="_blank">This Website</a></p>
+        <p id="suggestGrade"></p>
+    </div>
+    </center>
+      
+        
+
+
+
+    <script>
+        var stuff;
+        
+        function calc(){
+            //Guessing this is for suggesting what website they should use to study from
+            switch($('#userClass').val()){
+                case 'Literary analysis and composition I':
+                    stuff = "http://www.uen.org/7-12interactives/lang_arts.shtml";
+                break;
+
+                case 'Literary analysis and composition II':
+                    stuff = "http://www.uen.org/7-12interactives/lang_arts.shtml";
+                break;
+
+                case 'American Literature':
+                    stuff = "http://grammar.ccc.commnet.edu/grammar/five_par.htm";
+                break;
+
+                case 'AP English Language and Composition':
+                    stuff = "http://www.learnerator.com/blog/how-to-study-for-ap-english-language/";
+                break;
+
+                case 'Consumer Math':
+                    stuff = "https://www.khanacademy.org/";
+                break;
+
+                case 'Practical Math':
+                    stuff = "https://www.khanacademy.org/";
+                break;
+
+                case 'Pre-Algebra':
+                    stuff = "https://www.khanacademy.org/mission/pre-algebra";
+                break;
+
+                case 'Algebra I':
+                    stuff =  "https://www.khanacademy.org/mission/algebra";
+                break;
+
+                case 'Integrated Mathematics I':
+                    stuff = "https://www.khanacademy.org/mission/pre-algebra";
+                break;
+
+                case 'Geometry':
+                    stuff = "https://www.khanacademy.org/mission/geometry";
+                break;
+
+                case 'Integrated Mathematics II':
+                    stuff = "https://www.khanacademy.org/";
+                break;
+
+                case 'Algebra II':
+                    stuff = "https://www.khanacademy.org/mission/algebra2";
+                break;
+
+                case 'Integrated Mathematics III':
+                    stuff = "https://www.khanacademy.org/";
+                break;
+
+                case 'Pre-Calculus/Trigonometry':
+                    stuff = "https://www.khanacademy.org/mission/precalculus and https://www.khanacademy.org/mission/trigonometry";
+                break;
+
+                case 'Probability and Statistics':
+                    stuff = "https://www.khanacademy.org/mission/probability";
+                break;
+
+                case 'Calculus':
+                    stuff = "https://www.khanacademy.org/mission/differential-calculus, https://www.khanacademy.org/mission/integral-calculus, and https://www.khanacademy.org/math/multivariable-calculus";
+                break;
+
+                case 'Physical Science':
+                    stuff = "http://www.physicsclassroom.com/";
+                break;
+
+                case 'Earth Science':
+                    stuff = "http://geology.com/articles/what-is-earth-science.shtml";
+                break;
+
+                case 'Biology':
+                    stuff = "https://www.khanacademy.org/science/biology";
+                break;
+
+                case 'Chemistry':
+                    stuff = "https://www.khanacademy.org/science/chemistry";
+                break;
+
+                case 'Forensic Science':
+                    stuff = "http://www.forensicsciencesimplified.org/";
+                break;
+
+                case 'Physics':
+                    stuff = "http://www.physicsclassroom.com/";
+                break;
+
+                case 'World History':
+                    stuff = "http://www.shmoop.com/history/";
+                break;
+
+                case 'Modern World Studies':
+                    stuff = "http://www.shmoop.com/history/";
+                break;
+
+                case 'U.S. History':
+                    stuff = "http://www.shmoop.com/history/";
+                break;
+
+                case 'Modern U.S. History':
+                    stuff = "http://www.shmoop.com/history/";
+                break;
+
+                case 'U.S. Government and Politics':
+                    stuff = "https://www.apstudynotes.org/us-history/";
+                break;
+
+                case 'U.S. and Global':
+                    stuff = "www.shmoop.com/history/conomics";
+                break;
+
+                case 'Geography':
+                    stuff = "http://www.wikihow.com/Study-for-a-Geography-Exam";
+                break;
+
+                case 'AP U.S. Government and Politics':
+                    stuff = "https://www.apstudynotes.org/us-history/"
+                break;
+
+                case 'Spanish I':
+                    stuff = "http://www.learnspanish.com/";
+                break;
+
+                case 'Spanish II':
+                    stuff = "http://www.learnspanish.com/";
+                break;
+
+                case 'Spanish III':
+                    stuff = "http://www.learnspanish.com/";
+                break;
+
+                case 'Spanish IV':
+                    stuff = "http://www.learnspanish.com/";
+                break;
+
+                case 'French I':
+                    stuff = "http://ielanguages.com/french.html";
+                break;
+
+                case 'French II':
+                    stuff = "http://ielanguages.com/french.html";
+                break;
+
+                case 'French III':
+                    stuff = "http://ielanguages.com/french.html";
+                break;
+
+                case 'French IV':
+                    stuff = "http://ielanguages.com/french.html";
+                break;
+
+                case 'German I':
+                    stuff = "http://ielanguages.com/German.html";
+                break;
+
+                case 'German II':
+                    stuff = "http://ielanguages.com/German.html";
+                break;
+
+                case 'German III':
+                    stuff = "http://ielanguages.com/German.html";
+                break;
+
+                case 'German IV':
+                    stuff = "http://ielanguages.com/German.html";
+                break;
+
+                case 'Programming: Java':
+                    stuff = "http://www.nvcc.edu/academic/coursecont/summaries/ITP220.pdf";
+                break;
+
+                case 'Computer Science':
+                    stuff = "http://chortle.ccsu.edu/cs151/cs151java.html";
+                break;
+
+                default:
+                    stuff = "Class Not Found.";
+            }
+            console.log(stuff);
+            if (stuff !== "Class Not Found."){
+                $('#suggestClassa').attr('href',stuff)
+            }
+            
+            userClassVar = $('#userClass').val();
+            JSON.parse(userCurrentPercentVar = $('#userCurrentPercent').val()); //Var B
+            JSON.parse(userEOCVar = $('#userEOC').val()) //Var C
+            JSON.parse(userWantedGradeVar = $('#userWantedGrade').val());//Var A
+            
+            d = (((userWantedGradeVar) - (userCurrentPercentVar - (userEOCVar * userCurrentPercentVar / 100))) + userEOCVar)
+            //print:
+            "stuff"
+            if(d >= 0){
+              e = (((userWantedGradeVar - (userCurrentPercentVar * (100 - userEOCVar) / 100)) / userEOCVar) * 100)
+              //print:
+              console.log("you must get a " + e + "% to get a " + userWantedGradeVar + ".");
+              $('#suggestGrade').text("you must get a " + e + "% to get a " + userWantedGradeVar + ".");
+            }
+            else{
+              //print:
+              console.log("you cannot get that, the max you can get is a " + (userCurrentPercentVar + userEOCVar) + "%.");
+              $('#suggestGrade').text("you cannot get that, the max you can get is a " + (userCurrentPercentVar + userEOCVar) + "%.");
+            }
+        }
+    </script>
+  </body>
+</html>

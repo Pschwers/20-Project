@@ -1,4 +1,0 @@
-DevelopementJournalSchwers4
-
-This week I worked more on the website. I added some paragraphs to the Main page about what our website is and how to navigate it. I added some description to the sign up page also. We decided on how to upload our webpage to GitHub. We copy and pasted all the programming to a .txt file and uploaded that. I used sublme text to do this. I also decided on a color scheme for our website which I'm making very eye friendly and colorful. This way our site will be more friendly and it will allow users to focus on it easier. My goal for next week is to continue typing up pararaphs and information about the site. I also am going to start work on some of the buttons and maybe the user interface.
-

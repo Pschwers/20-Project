@@ -1,3 +1,0 @@
-Parker Schwers
-
-This week I worked on the menu for our website. We decided to include an EOC calculator page which will be the main part of our website where all the grades will be calculated. Then we'll have a profile page where you can edit your profile and view your classes. Then a sign up page where if you don't have a profile you can make one. And if you do have one you can log in. We also decided against ruby and ruby on rails because learning all the new word and codes for it would waste a lot of time. So we are using Java Script. Java Script has many simularities to Java so it'll be easier to learn and implement. My goal for next week is to get more of the website finished and also decide the color scheme for our site.
