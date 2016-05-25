@@ -1,239 +1,306 @@
 <!DOCTYPE html>
 <html>
 <head>
-   <link rel="stylesheet" href="StudyBuddy.css" type="text/css" />
- <link rel="stylesheet" href="StudyBuddy.css" type="text/css" rel="stylesheet" type="text/css" media = "print" /> 
-    </head>
-    <header>
-        
-<p><img src= "images/owl.png" alt="image of Studdy Buddy logo"> </p>
-<h1>Study Buddy</h1>
-<h3> EOC Calculator</h3>
+    <link rel="stylesheet" href="StudyBuddy.css" type="text/css" />
+    <link rel="stylesheet" href="StudyBuddy.css" type="text/css" rel="stylesheet" type="text/css" media = "print" />
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+</head>
+
+<header>
+    <p><img src= "images/owl.png" alt="image of Studdy Buddy logo"> </p>
+    <h1>Study Buddy</h1>
+    <h3> EOC Calculator</h3>
 </header>
+
 <ul>
-
-  
-  <li><a href="index.html">Home</a></li>
-<li><a href="StudyMethods.html">Study Methods</a></li>
-  
-  </script>
-
+    <li><a href="index.html">Home</a></li>
+    <li><a href="StudyMethods.html">Study Methods</a></li>
 </ul>
+
 <body>
-<form>
-  <p> Please input your class here:</p>
-  <select name = "IDNAME">
-      <option value = "Literary analysis and composition I">Literary analysis and composition I</option>
-       <option value = "Literary analysis and composition II">Literary analysis and composition II</option>
+    <center>
+    <div id="forms">
+
+        <p> Please input your class here:</p>
+        <select id = "userClass">
+        <option value = "Literary analysis and composition I">Literary analysis and composition I</option>
+        <option value = "Literary analysis and composition II">Literary analysis and composition II</option>
         <option value = "American Literature">American Literature</option>
-         <option value = "AP English Language and Composition">AP English Language and Composition</option>
-          <option value = "Consumer Math"></option>
-           <option value = "Practical Math">Practical Math</option>
-            <option value = "Pre-Algebra">Pre-Algebra</option>
-             <option value = "Algebra I">Algebra I</option>
-              <option value = "Integrated Mathematics I">Integrated Mathematics I</option>
-               <option value = "Geometry">Geometry</option>
-                <option value = "Integrated Mathematics II">Integrated Mathematics II</option>
-                 <option value = "Algebra II">Algebra II</option>
-                  <option value = "Integrated Mathematics III">Integrated Mathematics III</option>
-                   <option value = "Pre-Calculus/Trigonometry">Pre-Calculus/Trigonometry</option>
-                    <option value = "Probability and Statistics">Probability and Statistics</option>
-                     <option value = "Calculus">Calculus</option>
-                      <option value = "Physical Science">Physical Science</option>
-                       <option value = "Earth Science">Earth Science</option>
-                        <option value = "Biology">Biology</option>
-                         <option value = "Chemistry">Chemistry</option>
-                          <option value = "Forensic Science">Forensic Science</option>
-                           <option value = "Physics">Physics</option>
-                            <option value = "World History">World History</option>
-                             <option value = "Modern World Studies">Modern World Studies</option>
-                              <option value = "U.S. History">U.S. History</option>
-                               <option value = "'Modern U.S. History">'Modern U.S. History</option>
-                                <option value = "U.S. Government and Politics">U.S. Government and Politics</option>
-                                 <option value = "U.S. and Global"></option>
-                                  <option value = "Geography">Geography</option>
-                                   <option value = "AP U.S. Government and Politics">AP U.S. Government and Politics</option>
-                                    <option value = "Spanish I">Spanish I</option>
-                                     <option value = "Spanish II">Spanish II</option>
-                                      <option value = "Spanish III">Spanish III</option>
-                                       <option value = "Spanish IV">Spanish IV</option>
-                                        <option value = "French I">French I</option>
-                                         <option value = "French II">French II</option>
-                                          <option value = "French III">French III</option>
-                                           <option value = "French IV">French IV</option>
-                                            <option value = "German I">German I</option>
-                                             <option value = "German II">German II</option>
-                                              <option value = "German III">German III</option>
-                                               <option value = "German IV">German IV</option>
-                                                <option value = "Programming: Java">Programming: Java</option>
-                                                 <option value = "Computer Science">Computer Science</option>
-                                                 </select>
-    <button onclick="calc()">Submit</button>
-    <p id="demo"></p>
-    
+        <option value = "AP English Language and Composition">AP English Language and Composition</option>
+        <option value = "Consumer Math"></option>
+        <option value = "Practical Math">Practical Math</option>
+        <option value = "Pre-Algebra">Pre-Algebra</option>
+        <option value = "Algebra I">Algebra I</option>
+        <option value = "Integrated Mathematics I">Integrated Mathematics I</option>
+        <option value = "Geometry">Geometry</option>
+        <option value = "Integrated Mathematics II">Integrated Mathematics II</option>
+        <option value = "Algebra II">Algebra II</option>
+        <option value = "Integrated Mathematics III">Integrated Mathematics III</option>
+        <option value = "Pre-Calculus/Trigonometry">Pre-Calculus/Trigonometry</option>
+        <option value = "Probability and Statistics">Probability and Statistics</option>
+        <option value = "Calculus">Calculus</option>
+        <option value = "Physical Science">Physical Science</option>
+        <option value = "Earth Science">Earth Science</option>
+        <option value = "Biology">Biology</option>
+        <option value = "Chemistry">Chemistry</option>
+        <option value = "Forensic Science">Forensic Science</option>
+        <option value = "Physics">Physics</option>
+        <option value = "World History">World History</option>
+        <option value = "Modern World Studies">Modern World Studies</option>
+        <option value = "U.S. History">U.S. History</option>
+        <option value = "'Modern U.S. History">'Modern U.S. History</option>
+        <option value = "U.S. Government and Politics">U.S. Government and Politics</option>
+        <option value = "U.S. and Global"></option>
+        <option value = "Geography">Geography</option>
+        <option value = "AP U.S. Government and Politics">AP U.S. Government and Politics</option>
+        <option value = "Spanish I">Spanish I</option>
+        <option value = "Spanish II">Spanish II</option>
+        <option value = "Spanish III">Spanish III</option>
+        <option value = "Spanish IV">Spanish IV</option>
+        <option value = "French I">French I</option>
+        <option value = "French II">French II</option>
+        <option value = "French III">French III</option>
+        <option value = "French IV">French IV</option>
+        <option value = "German I">German I</option>
+        <option value = "German II">German II</option>
+        <option value = "German III">German III</option>
+        <option value = "German IV">German IV</option>
+        <option value = "Programming: Java">Programming: Java</option>
+        <option value = "Computer Science">Computer Science</option>
+</select>
+        <br>
+        <p style="display: inline-block;">Please input your current grade percent here:</p><input type="text" class="userInput" id="userCurrentPercent" style="display: inline-block;"></input>
+        <br>
+        <p style="display: inline-block;">Please input the percent your EOC is worth:</p><input type="text" class="userInput" id="userEOC" style="display: inline-block;"></input>
+        <br>
+        <p style="display: inline-block;">Please input the grade you want here:</p><input type="text" class="userInput" id="userWantedGrade" style="display: inline-block;"></input>
+        <br>
+        <button onclick="calc()">Submit</button>
+
+    </div>
+    </center>
+
+    <div id="suggest">
+        <p id="suggestClass">You Should Try <a id="suggestClassa" target="_blank">This Website</a></p>
+        <p id="suggestGrade"></p>
+    </div>
+      
+        
+
+
+
     <script>
-  
-  function calc(){
-  switch(("IDNAME").value)
-    {
-        case 'Literary analysis and composition I':
-        stuff = "http://www.uen.org/7-12interactives/lang_arts.shtml";
-        break;
-        case 'Literary analysis and composition II':
-        stuff = "http://www.uen.org/7-12interactives/lang_arts.shtml";
-        break;
-        case 'American Literature':
-        stuff = "http://grammar.ccc.commnet.edu/grammar/five_par.htm";
-        break;
-        case 'AP English Language and Composition':
-        stuff = "http://www.learnerator.com/blog/how-to-study-for-ap-english-language/";
-        break;
-        case 'Consumer Math':
-        stuff = "https://www.khanacademy.org/";
-        break;
-        case 'Practical Math':
-        stuff = "https://www.khanacademy.org/";
-        break;
-        case 'Pre-Algebra':
-        stuff = "https://www.khanacademy.org/mission/pre-algebra";
-        break;
-        case 'Algebra I':
-        document.getElementById("demo").innerHTML = "https://www.khanacademy.org/mission/algebra";
-        break;
-        case 'Integrated Mathematics I':
-        stuff = "https://www.khanacademy.org/mission/pre-algebra";
-        break;
-        case 'Geometry':
-        stuff = "https://www.khanacademy.org/mission/geometry";
-        break;
-        case 'Integrated Mathematics II':
-        stuff = "https://www.khanacademy.org/";
-        break;
-        case 'Algebra II':
-        stuff = "https://www.khanacademy.org/mission/algebra2";
-        break;
-        case 'Integrated Mathematics III':
-        stuff = "https://www.khanacademy.org/";
-        break;
-        case 'Pre-Calculus/Trigonometry':
-        stuff = "https://www.khanacademy.org/mission/precalculus and https://www.khanacademy.org/mission/trigonometry";
-        break;
-        case 'Probability and Statistics':
-        stuff = "https://www.khanacademy.org/mission/probability";
-        break;
-        case 'Calculus':
-        stuff = "https://www.khanacademy.org/mission/differential-calculus, https://www.khanacademy.org/mission/integral-calculus, and https://www.khanacademy.org/math/multivariable-calculus";
-        break;
-        case 'Physical Science':
-        stuff = "http://www.physicsclassroom.com/";
-        break;
-        case 'Earth Science':
-        stuff = "http://geology.com/articles/what-is-earth-science.shtml";
-        break;
-        case 'Biology':
-        stuff = "https://www.khanacademy.org/science/biology";
-        break;
-        case 'Chemistry':
-        stuff = "https://www.khanacademy.org/science/chemistry";
-        break;
-        case 'Forensic Science':
-        stuff = "http://www.forensicsciencesimplified.org/";
-        break;
-        case 'Physics':
-        stuff = "http://www.physicsclassroom.com/";
-        break;
-        case 'World History':
-        stuff = "http://www.shmoop.com/history/";
-        break;
-        case 'Modern World Studies':
-        stuff = "http://www.shmoop.com/history/";
-        break;
-        case 'U.S. History':
-        stuff = "http://www.shmoop.com/history/";
-        break;
-        case 'Modern U.S. History':
-        stuff = "http://www.shmoop.com/history/";
-        break;
-        case 'U.S. Government and Politics':
-        stuff = "https://www.apstudynotes.org/us-history/";
-        break;
-        case 'U.S. and Global':
-        stuff = "www.shmoop.com/history/conomics";
-        break;
-        case 'Geography':
-        stuff = "http://www.wikihow.com/Study-for-a-Geography-Exam";
-        break;
-        case 'AP U.S. Government and Politics':
-        stuff = "https://www.apstudynotes.org/us-history/"
-        break;
-        case 'Spanish I':
-        stuff = "http://www.learnspanish.com/";
-        break;
-        case 'Spanish II':
-        stuff = "http://www.learnspanish.com/";
-        break;
-        case 'Spanish III':
-        stuff = "http://www.learnspanish.com/";
-        break;
-        case 'Spanish IV':
-        stuff = "http://www.learnspanish.com/";
-        break;
-        case 'French I':
-        stuff = "http://ielanguages.com/french.html";
-        break;
-        case 'French II':
-        stuff = "http://ielanguages.com/french.html";
-        break;
-        case 'French III':
-        stuff = "http://ielanguages.com/french.html";
-        break;
-        case 'French IV':
-        stuff = "http://ielanguages.com/french.html";
-        break;
-        case 'German I':
-        stuff = "http://ielanguages.com/German.html";
-        break;
-        case 'German II':
-        stuff = "http://ielanguages.com/German.html";
-        break;
-        case 'German III':
-        stuff = "http://ielanguages.com/German.html";
-        break;
-        case 'German IV':
-        stuff = "http://ielanguages.com/German.html";
-        break;
-        case 'Programming: Java':
-        stuff = "http://www.nvcc.edu/academic/coursecont/summaries/ITP220.pdf";
-        break;
-        case 'Computer Science':
-        stuff = "http://chortle.ccsu.edu/cs151/cs151java.html";
-        break;
-    }
-     console.log(stuff);}
-  </script>
-  <input type="text" id="userInput">Please input your current grade percent here:</input>
-  <script>
-      var b = "IDNAME".value
- 
-  <input type="text" id="userInput">Please input the percent your EOC is worth:</input><br><br>
-  int c = "IDNAME".value
-  <input type="text" id="userInput">Please input the grade you want here:</input><br><br>
-      int a = "IDNAME".value
-      d = (a * 100) - (b * (100 - c))
-      //print:
-      "stuff"
-      if(d < (c * 100))
-      {
-          e = (100 * d / c)
-          //print:
-          "You must get a " + e + "% to get a " + a + "!"
-      }
-      else
-      {
-          //print:
-          "You cannot get that, the max you can get is a " + (b + c) + "%."
-      }
-  </script>
-    </body>
-</form>
+        var stuff;
+        
+        function calc(){
+            console.log('hola')
+            //Guessing this is for suggesting what website they should use to study from
+            switch($('#userClass').val()){
+                case 'Literary analysis and composition I':
+                    stuff = "http://www.uen.org/7-12interactives/lang_arts.shtml";
+                break;
+
+                case 'Literary analysis and composition II':
+                    stuff = "http://www.uen.org/7-12interactives/lang_arts.shtml";
+                break;
+
+                case 'American Literature':
+                    stuff = "http://grammar.ccc.commnet.edu/grammar/five_par.htm";
+                break;
+
+                case 'AP English Language and Composition':
+                    stuff = "http://www.learnerator.com/blog/how-to-study-for-ap-english-language/";
+                break;
+
+                case 'Consumer Math':
+                    stuff = "https://www.khanacademy.org/";
+                break;
+
+                case 'Practical Math':
+                    stuff = "https://www.khanacademy.org/";
+                break;
+
+                case 'Pre-Algebra':
+                    stuff = "https://www.khanacademy.org/mission/pre-algebra";
+                break;
+
+                case 'Algebra I':
+                    stuff =  "https://www.khanacademy.org/mission/algebra";
+                break;
+
+                case 'Integrated Mathematics I':
+                    stuff = "https://www.khanacademy.org/mission/pre-algebra";
+                break;
+
+                case 'Geometry':
+                    stuff = "https://www.khanacademy.org/mission/geometry";
+                break;
+
+                case 'Integrated Mathematics II':
+                    stuff = "https://www.khanacademy.org/";
+                break;
+
+                case 'Algebra II':
+                    stuff = "https://www.khanacademy.org/mission/algebra2";
+                break;
+
+                case 'Integrated Mathematics III':
+                    stuff = "https://www.khanacademy.org/";
+                break;
+
+                case 'Pre-Calculus/Trigonometry':
+                    stuff = "https://www.khanacademy.org/mission/precalculus and https://www.khanacademy.org/mission/trigonometry";
+                break;
+
+                case 'Probability and Statistics':
+                    stuff = "https://www.khanacademy.org/mission/probability";
+                break;
+
+                case 'Calculus':
+                    stuff = "https://www.khanacademy.org/mission/differential-calculus, https://www.khanacademy.org/mission/integral-calculus, and https://www.khanacademy.org/math/multivariable-calculus";
+                break;
+
+                case 'Physical Science':
+                    stuff = "http://www.physicsclassroom.com/";
+                break;
+
+                case 'Earth Science':
+                    stuff = "http://geology.com/articles/what-is-earth-science.shtml";
+                break;
+
+                case 'Biology':
+                    stuff = "https://www.khanacademy.org/science/biology";
+                break;
+
+                case 'Chemistry':
+                    stuff = "https://www.khanacademy.org/science/chemistry";
+                break;
+
+                case 'Forensic Science':
+                    stuff = "http://www.forensicsciencesimplified.org/";
+                break;
+
+                case 'Physics':
+                    stuff = "http://www.physicsclassroom.com/";
+                break;
+
+                case 'World History':
+                    stuff = "http://www.shmoop.com/history/";
+                break;
+
+                case 'Modern World Studies':
+                    stuff = "http://www.shmoop.com/history/";
+                break;
+
+                case 'U.S. History':
+                    stuff = "http://www.shmoop.com/history/";
+                break;
+
+                case 'Modern U.S. History':
+                    stuff = "http://www.shmoop.com/history/";
+                break;
+
+                case 'U.S. Government and Politics':
+                    stuff = "https://www.apstudynotes.org/us-history/";
+                break;
+
+                case 'U.S. and Global':
+                    stuff = "www.shmoop.com/history/conomics";
+                break;
+
+                case 'Geography':
+                    stuff = "http://www.wikihow.com/Study-for-a-Geography-Exam";
+                break;
+
+                case 'AP U.S. Government and Politics':
+                    stuff = "https://www.apstudynotes.org/us-history/"
+                break;
+
+                case 'Spanish I':
+                    stuff = "http://www.learnspanish.com/";
+                break;
+
+                case 'Spanish II':
+                    stuff = "http://www.learnspanish.com/";
+                break;
+
+                case 'Spanish III':
+                    stuff = "http://www.learnspanish.com/";
+                break;
+
+                case 'Spanish IV':
+                    stuff = "http://www.learnspanish.com/";
+                break;
+
+                case 'French I':
+                    stuff = "http://ielanguages.com/french.html";
+                break;
+
+                case 'French II':
+                    stuff = "http://ielanguages.com/french.html";
+                break;
+
+                case 'French III':
+                    stuff = "http://ielanguages.com/french.html";
+                break;
+
+                case 'French IV':
+                    stuff = "http://ielanguages.com/french.html";
+                break;
+
+                case 'German I':
+                    stuff = "http://ielanguages.com/German.html";
+                break;
+
+                case 'German II':
+                    stuff = "http://ielanguages.com/German.html";
+                break;
+
+                case 'German III':
+                    stuff = "http://ielanguages.com/German.html";
+                break;
+
+                case 'German IV':
+                    stuff = "http://ielanguages.com/German.html";
+                break;
+
+                case 'Programming: Java':
+                    stuff = "http://www.nvcc.edu/academic/coursecont/summaries/ITP220.pdf";
+                break;
+
+                case 'Computer Science':
+                    stuff = "http://chortle.ccsu.edu/cs151/cs151java.html";
+                break;
+
+                default:
+                    stuff = "Class Not Found.";
+            }
+            console.log(stuff);
+            if (stuff !== "Class Not Found."){
+                $('#suggestClassa').attr('href',stuff)
+            }
+            
+            userClassVar = $('#userClass').val();
+            userCurrentPercentVar = JSON.parse($('#userCurrentPercent').val()); //Var B
+            userEOCVar = JSON.parse($('#userEOC').val()) //Var C
+            userWantedGradeVar = JSON.parse($('#userWantedGrade').val());//Var A
+            
+            d = (userWantedGradeVar) - (userCurrentPercentVar * ((100 - userEOCVar) / 100))
+            //print:
+            "stuff"
+            if(userWantedGradeVar <- (userCurrentPercentVar + userEOCVar)){
+              e = ((userWantedGradeVar - (userCurrentPercentVar * (100 - userEOCVar))) / userEOCVar)
+              //print:
+              console.log("you must get a " + e + "% to get a " + userWantedGradeVar + ".");
+              $('#suggestGrade').text("you must get a " + e + "% to get a " + userWantedGradeVar + ".");
+            }
+            else{
+              //print:
+              console.log("you cannot get that, the max you can get is a " + (userCurrentPercentVar + userEOCVar) + "%.");
+              $('#suggestGrade').text("you cannot get that, the max you can get is a " + (userCurrentPercentVar + userEOCVar) + "%.");
+             
+            }
+        }
+    </script>
+  </body>
 </html>
